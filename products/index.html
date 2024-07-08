@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+     <div id="main" class="Flex  Flex-col bg-black   p-3 text-white h-[100vh] ">
+        <div id="prods" class="absolute w-fit p-2 ease-in-out duration-500 bg-gray-700 top-[-500px] ">
+            <div  class=" nav1 flex justify-between gap-[1300px] border-b-2 p-4">
+                <h1 id="ptn" class="text-2xl">Products</h1>
+            <button id="close" class="px-5 py-1 bg-red-500  ">Close</button>
+            </div>
+            <div id="podsraper" class="flex gap-2"></div>
+        </div>
+        <button id="show" class="bg-blue-700 my-2 px-5 py-2 mx-10" >Show Product</button>
+        <div id="nav" class="flex items-center justify-between p-4 my-10  border-b-2 border-white">
+
+            <h1 class="text-2xl">Your Cart</h1>
+            <h2 id="total">Total : <span>&56</span></h2>
+        </div>
+        <div id="p"></div>
+
+     </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
